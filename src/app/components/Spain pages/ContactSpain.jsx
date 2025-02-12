@@ -96,10 +96,10 @@ const ContactSpain = () => {
                       htmlFor="name"
                       className="block pl-2 text-sm font-medium text-gray-600"
                     >
-                      Nom / Prénom *
+                      Nombre / Apellido*
                     </label>
                     <input
-                      placeholder="Nom Prénom"
+                      placeholder="Nombre Apellido"
                       type="text"
                       id="name"
                       name="name"
@@ -115,7 +115,7 @@ const ContactSpain = () => {
                       htmlFor="email"
                       className="block pl-2 text-sm font-medium text-gray-600"
                     >
-                      E-mail*
+                      Correo electrónico*
                     </label>
                     <input
                       placeholder="adresse@mail.com"
@@ -134,7 +134,7 @@ const ContactSpain = () => {
                       htmlFor="phone"
                       className="block pl-2 text-sm font-medium text-gray-600"
                     >
-                      Téléphone*
+                      Teléfono*
                     </label>
                     <input
                       placeholder="0123456789"
@@ -153,7 +153,7 @@ const ContactSpain = () => {
                       htmlFor="category"
                       className="block pl-2 text-sm font-medium text-gray-600"
                     >
-                      Objet de la demande*
+                      Asunto de la consulta*
                     </label>
                     <select
                       id="category"
@@ -178,10 +178,10 @@ const ContactSpain = () => {
                     htmlFor="message"
                     className="block pl-2 text-sm font-medium text-gray-600"
                   >
-                    Message*
+                    Mensaje*
                   </label>
                   <textarea
-                    placeholder="Merci de préciser l'objet de votre demande. Nous nous engageons à vous répondre sous 24 heures."
+                    placeholder="Por favor, especifique el motivo de su consulta. Nos comprometemos a responderle en un plazo de 24 horas."
                     id="message"
                     name="message"
                     rows="4"
@@ -207,9 +207,9 @@ const ContactSpain = () => {
                 <div className="mt-4">
                   <button
                     type="submit"
-                    className="text-[#2C80EF] bg-transparent text-[15px] border border-[#2c80ef] py-2 px-10 rounded-md hover:bg-[#2C80EF] hover:text-white block mx-auto"
+                    className="text-[#2C80EF] bg-transparent text-[15px] border border-[#2c80ef] py-2 px-12 rounded-md hover:bg-[#2C80EF] hover:text-white block mx-auto"
                   >
-                    Envoyer
+                    Enviar
                   </button>
                 </div>
               </form>

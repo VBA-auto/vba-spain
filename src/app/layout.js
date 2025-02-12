@@ -21,11 +21,6 @@ const RootLayout = ({ children }) => {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <link rel="icon" href={metadata.icon} sizes="any" />
-        <link
-          rel="preload"
-          href="https://www.googletagmanager.com/gtag/js?id=G-80T20RP4QR"
-          as="script"
-        />
       </Head>
 
       <body className={`${poppins.variable} antialiased`}>
