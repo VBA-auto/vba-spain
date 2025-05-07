@@ -15,7 +15,7 @@ const ModalClio = () => {
       >
         <div className="">
           <div className="h-[30px]">
-            <DynaStocksSpain carName="Renault Clio" />
+            <DynaStocksSpain carName="Renault Clio 4" />
           </div>
         </div>
         <div className="px-4 mt-3">
